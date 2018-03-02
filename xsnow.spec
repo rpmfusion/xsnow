@@ -1,6 +1,6 @@
 Name:           xsnow
 Version:        1.42 
-Release:        21%{?dist}
+Release:        22%{?dist}
 Summary:        An X Window System based dose of Christmas cheer
 
 Group:          Amusements/Graphics
@@ -70,6 +70,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Mar 02 2018 RPM Fusion Release Engineering <leigh123linux@googlemail.com> - 1.42-22
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_28_Mass_Rebuild
+
 * Thu Aug 31 2017 RPM Fusion Release Engineering <kwizart@rpmfusion.org> - 1.42-21
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
 
